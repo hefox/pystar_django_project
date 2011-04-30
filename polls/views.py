@@ -13,3 +13,7 @@ def results(request, poll_id):
 
 def vote(request, poll_id):
     return HttpResponse("You're voting on poll %s." % (poll_id,))
+
+def redirect_to_polls(request):
+
+    return HttpResponseRedirect(Ô/polls/Õ)
